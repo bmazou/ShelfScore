@@ -1,7 +1,7 @@
 namespace ShelfScore.Shared.Dtos;
 
 
-public record RatedBookSummaryDto(
+public record BookSummaryDto(
     int Id,
     string Title
 );
