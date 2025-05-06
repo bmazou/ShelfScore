@@ -7,5 +7,5 @@ public record RatingDto(
     string? TextReview,
     DateTime CreatedAt,
     UserSummaryDto User,
-    RatedBookSummaryDto Book
+    BookSummaryDto Book
 );
