@@ -36,7 +36,8 @@ public static class UserMapping
         return new User {
             Username = createUserDto.Username,
             Email = createUserDto.Email,
-            PasswordHash = string.Empty,        // Placeholder, will be hashed later
+            PasswordHash = string.Empty,    // Placeholder, will be hashed right after
+            PasswordSalt = string.Empty,    // Placeholder, will be hashed right after
             FirstName = createUserDto.FirstName,
             LastName = createUserDto.LastName
         };
