@@ -7,8 +7,8 @@ public class Rating
     public string? TextReview { get; set; }
     public DateTime CreatedAt { get; } = DateTime.UtcNow;
 
-    public required int PersonId { get; set; }
-    public required User Person;
+    public required int UserId { get; set; }
+    public required User User;
 
     public required int BookId { get; set; }
     public required Book Book; 

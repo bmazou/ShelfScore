@@ -8,7 +8,7 @@ public static class RatingMapping
     public static RatingDto ToDto(this Rating rating)
     {
         ArgumentNullException.ThrowIfNull(rating);
-        ArgumentNullException.ThrowIfNull(rating.Person);
+        ArgumentNullException.ThrowIfNull(rating.User);
         ArgumentNullException.ThrowIfNull(rating.Book);
 
         return new RatingDto(
@@ -16,7 +16,7 @@ public static class RatingMapping
             rating.Score,
             rating.TextReview,
             rating.CreatedAt,
-            rating.Person.ToSummaryDto(),
+            rating.User.ToSummaryDto(),
             rating.Book.ToSummaryDto()
         );
     }
@@ -37,8 +37,8 @@ public static class RatingMapping
             TextReview = createRatingDto.TextReview,
             BookId = createRatingDto.BookId,
             Book = book,
-            PersonId = user.Id,   // `createRatingDto` doesn't have `UserId`, so set it directly from `user`
-            Person = user
+            UserId = user.Id,   // `createRatingDto` doesn't have `UserId`, so set it directly from `user`
+            User = user
         };
     }
 
