@@ -1,0 +1,6 @@
+@ShelfScore.Server_HostAddress = http://localhost:5063
+
+GET {{ShelfScore.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

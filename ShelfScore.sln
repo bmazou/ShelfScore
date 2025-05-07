@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfScore.Shared", "ShelfScore.Shared\ShelfScore.Shared.csproj", "{14EDEBA0-61BF-4BED-AE4F-309687C12B65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShelfScore.Server", "ShelfScore.Server\ShelfScore.Server.csproj", "{55E8C956-306C-4060-93AC-FDE03F48B692}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{14EDEBA0-61BF-4BED-AE4F-309687C12B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14EDEBA0-61BF-4BED-AE4F-309687C12B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14EDEBA0-61BF-4BED-AE4F-309687C12B65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55E8C956-306C-4060-93AC-FDE03F48B692}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55E8C956-306C-4060-93AC-FDE03F48B692}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55E8C956-306C-4060-93AC-FDE03F48B692}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55E8C956-306C-4060-93AC-FDE03F48B692}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
