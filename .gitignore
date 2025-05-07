@@ -54,4 +54,9 @@ TestResult.xml
 nunit-*.xml
 
 
-*txt
+*.txt
+*.sh
+
+*.db
+
+.vscode
