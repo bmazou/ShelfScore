@@ -8,10 +8,8 @@ public class Book
     public int RatingsSum { get; set; }
     public int RatingsCount { get; set; }
     public float RatingsAverage { get; private set; }
-
-    public required int AuthorId { get; set; }
-    public required Author Author { get; set; } 
     
+    public ICollection<Author> Authors { get; set; } = [];
     public ICollection<Rating> Ratings { get; set; } = [];
 
 

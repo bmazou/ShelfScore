@@ -7,5 +7,5 @@ public record BookDto(
     DateOnly ReleaseDate,
     int RatingsCount,
     float RatingsAverage,
-    AuthorDto Author
+    ICollection<AuthorDto> Authors
 );
